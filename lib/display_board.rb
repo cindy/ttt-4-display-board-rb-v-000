@@ -2,7 +2,6 @@
 # out the current state.
 def display_board(board)
   board = board.each_slice(3).to_a
-  print board
   boardy = []
   board.each do |a|
     print a
