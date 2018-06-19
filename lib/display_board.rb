@@ -12,6 +12,7 @@ def display_board(board)
     end
     print " " + filled_board[row] + "\n"
   end
+  nil
 end
 
 # puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
