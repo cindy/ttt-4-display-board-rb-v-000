@@ -11,6 +11,7 @@ def display_board(board)
       print "-----------"
     end
     print filled_board[row]
+  end
 end
 
 puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
