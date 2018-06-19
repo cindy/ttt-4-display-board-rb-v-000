@@ -14,5 +14,3 @@ def display_board(board)
   end
   nil
 end
-
-display_board [0] * 9
