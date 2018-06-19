@@ -8,6 +8,7 @@ def display_board(board)
     print a
     boardy << a.join("|")
   end
+  print boardy
 end
 
 puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
