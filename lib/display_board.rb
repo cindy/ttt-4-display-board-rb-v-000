@@ -3,7 +3,8 @@
 def display_board(board)
   board = board.each_slice(3).to_a
   board.each do |a|
-  a.join("|")
+    a.join("|")
+  end
 end
 
 display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
