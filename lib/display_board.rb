@@ -2,9 +2,9 @@
 # out the current state.
 def display_board(board)
   board = board.each_slice(3).to_a
-  boardy = []
+  filled_board = []
   board.each do |a|
-    boardy << a.join("|")
+    filled_board << a.join("|")
   end
   print boardy
 end
