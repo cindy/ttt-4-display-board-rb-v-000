@@ -15,4 +15,4 @@ def display_board(board)
   nil
 end
 
-# puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
+display_board [0] * 9
