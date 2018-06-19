@@ -3,7 +3,7 @@
 def display_board(board)
   board = board.each_slice(3).to_a
   print board
-  boardy
+  boardy = []
   board.each do |a|
     print a
     boardy << a.join("|")
