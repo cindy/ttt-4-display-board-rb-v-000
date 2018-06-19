@@ -6,7 +6,11 @@ def display_board(board)
   board.each do |a|
     filled_board << a.join("|")
   end
-  print filled_board
+  for row in (0..filled_board.length)
+    if row > 0
+      print "-----------"
+    end
+    print filled_board[row]
 end
 
 puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
