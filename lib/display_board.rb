@@ -6,7 +6,7 @@ def display_board(board)
   board.each do |a|
     filled_board << a.join("|")
   end
-  for row in (0..filled_board.length)
+  for row in (0..filled_board.length-1)
     if row > 0
       print "-----------\n"
     end
