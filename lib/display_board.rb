@@ -4,7 +4,6 @@ def display_board(board)
   board = board.each_slice(3).to_a
   boardy = []
   board.each do |a|
-    print a
     boardy << a.join("|")
   end
   print boardy
