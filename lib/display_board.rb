@@ -10,7 +10,7 @@ def display_board(board)
     if row > 0
       print "-----------\n"
     end
-    print filled_board[row] + "\n"
+    print " " + filled_board[row] + "\n"
   end
 end
 
