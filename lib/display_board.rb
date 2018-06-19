@@ -6,7 +6,7 @@ def display_board(board)
   board.each do |a|
     filled_board << a.join("|")
   end
-  print boardy
+  print filled_board
 end
 
 puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
