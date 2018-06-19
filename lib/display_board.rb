@@ -4,7 +4,7 @@ def display_board(board)
   board = board.each_slice(3).to_a
   filled_board = []
   board.each do |a|
-    filled_board << a.join("|")
+    filled_board << a.join(" | ")
   end
   for row in (0..filled_board.length-1)
     if row > 0
