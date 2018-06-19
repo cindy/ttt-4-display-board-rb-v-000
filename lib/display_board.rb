@@ -8,7 +8,7 @@ def display_board(board)
   end
   for row in (0..filled_board.length)
     if row > 0
-      print "-----------"
+      print "-----------\n"
     end
     print filled_board[row]
   end
