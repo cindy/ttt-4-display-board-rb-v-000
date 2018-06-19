@@ -14,4 +14,4 @@ def display_board(board)
   end
 end
 
-puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
+# puts display_board(["O", " ", " ", " ", "X", " ", " ", " ", " "])
