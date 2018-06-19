@@ -2,9 +2,9 @@
 # out the current state.
 def display_board(board)
   board = board.each_slice(3).to_a
-  prints board
+  print board
   board.each do |a|
-    puts a
+    print a
     a.join("|")
   end
 end
